@@ -49,7 +49,7 @@
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
-    "start": "json-server --static ./build db.json",
+    "start": "npm run build && json-server --static ./build db.json",
     "dev": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
