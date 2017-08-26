@@ -1,0 +1,27 @@
+{
+  "todos": [
+    {
+      "id": 2,
+      "name": "bar",
+      "isCompleted": false
+    },
+    {
+      "id": 3,
+      "name": "baz",
+      "isCompleted": false
+    },
+    {
+      "name": "daa1",
+      "isCompleted": true,
+      "id": 4
+    },
+    {
+      "name": "some new one",
+      "isCompleted": false,
+      "id": 5
+    }
+  ],
+  "todo": {
+    "name": ""
+  }
+}
