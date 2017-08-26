@@ -49,11 +49,12 @@
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
-    "start": "json-server db.json",
+    "start": "node server/",
     "dev": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "dev-server": "json-server --port 8080 --watch db.json"
+    "dev-server": "json-server --port 8080 --watch db.json",
+    "heroku-postbuild": "npm run build"
   },
   "jest": {
     "collectCoverageFrom": [
